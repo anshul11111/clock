@@ -13,22 +13,25 @@ body
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #2f363e;
+    flex-direction:column;
+    background: #000;
 }
 
-#time:hover
-{
-color:aqua;
-}
 #time
 {
     display: flex;
     gap: 40px;
-    color: white;
+    color: transparent;
     transition-delay: 0.1s;
     transition-duration: 0.2s;
-    flex-direction: column;
+    animation: animatedtext 2s infinite;  
 }
+#time:hover
+{
+color:rgb(60, 255, 0);
+}
+
+
 .circle
 {
     
