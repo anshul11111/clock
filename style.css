@@ -22,9 +22,15 @@ body
     display: flex;
     gap: 40px;
     color: transparent;
+<<<<<<< HEAD
+    transition-delay: 0.2s;
+    transition-duration: 0.2s;
+    transition-timing-function: cubic-bezier( 0.13, 0.64, 0.26, 0.01 );
+=======
     transition-delay: 0.1s;
     transition-duration: 0.2s;
     animation: animatedtext 2s infinite;
+>>>>>>> 2aa4b3d3732fff3f51708326b23e604de316e5ed
     flex-direction: column;
     align-items: center;
 }
@@ -38,7 +44,8 @@ color:rgb(60, 255, 0);
 {
     
     transition-delay: 0.1s;
-    transition-duration: 0.3s;
+    transition-duration: 0.4s;
+    transition-timing-function: cubic-bezier( 0.13, 0.64, 0.26, 0.01 );
 }
 .circle:hover
 {
